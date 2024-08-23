@@ -8,7 +8,7 @@ An OpenTelemetry compatible library for instrumenting and exporting traces from 
 > To be able to use the Open Telemetry library you have to add the NodeJS compatibility flag in your `wrangler.toml` file.
 
 ```
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = [ "nodejs_compat", "nodejs_als" ]
 ```
 
 ### Code example
